@@ -172,7 +172,7 @@ ol {
 .top-left-name
 {
     color: #414f57;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
     font-weight: 300;
     line-height: 2;
@@ -182,7 +182,7 @@ ol {
 
 .general-neat-font
 {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 300;
 }
@@ -190,7 +190,7 @@ ol {
 .neat-font
 {
     color: #414f57;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     /*font-size: 35pt;*/
     font-weight: 100;
     line-height: 2;
@@ -220,7 +220,7 @@ ol {
 .tabs-neat-font
 {
     /*color: #414f57;*/
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 35pt;
     /*font-weight: 1000000;*/
     line-height: 2;
