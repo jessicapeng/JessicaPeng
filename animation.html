@@ -1,15 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Jessica Peng</title>
+	
 	<meta charset="UTF-8">
 	<meta name="description" content="Jessica Peng">
 	<meta name="keywords" content="Jessica Peng">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
 	<link href="img/favicon.png" rel="shortcut icon"/>
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -24,9 +31,9 @@
 
 </head>
 <body>
+
 	
-	
-		<!-- header section start -->
+	<!-- header section start -->
 	<header class="header-section">
 		<div class="container">
 			<div class="row">
@@ -53,47 +60,51 @@
 			<i class="fa fa-bars"></i>
 		</div>
 	</header>
-	<!-- header section end -->
 
-	<!-- page section end -->
-<!-- page section start -->
-	<section class="page-section contact-hover">
-		<div class="container">
+
+	<section class="intro-section">
+		<div class="container text-center">
 			<div class="row">
-				<div class="col-lg-6 offset-lg-3 contect-tect">
-					<h2 class = "neat-font">Questions?</h2>
-					<p class = "neat-font">Feel free to send me an email or reach out to me on social media:</p>
-					<a href = "https://www.linkedin.com/in/pengjessica/" class = "contact-social-media"> LinkedIn <span class="fa fa-linkedin"></span></a>
-					
-					<a href = "https://github.com/jessicapeng" class = "contact-social-media">- Github <span class="fa fa-github"></span></a>
-				
-					<a href = "https://www.facebook.com/jessica9dance" class = "contact-social-media">- Facebook <span class="fa fa-facebook"></span></a>
-					
+				<div class="col-xl-10 offset-xl-1">
+					<h2 class="section-title neat-font ml11">
+                        <span class = "text-wrapper">
+                            <span class="line line1"></span>
+                            <span class = "small-size letters color-span">
+                                 Welcome to my Animations. Press play to watch videos.
+                            </span>
+                        </span>
+                    </h2>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 				</div>
 			</div>
-			<form class="neat-font contact-form">
-				<div class="row form-without-send">
-					<div class="col-md-6">
-						<input type="text" placeholder="First and Last Name">
-					</div>
-					<div class="col-md-6">
-						<input type="text" placeholder="E-mail">
-					</div>
-					<div class="col-md-12">
-						<input type="text" placeholder="Subject">
-					</div>
-					
-					<div class="col-md-12">
-						<textarea placeholder="Message"></textarea>
-					</div>
-				</div>
-				<div class="text-center">
-					<button class="site-btn general-neat-font about-contact-button site-btn send-button">Send</button>
-				</div>
-			</form>
 		</div>
 	</section>
-	<!-- page section end -->
+
+    <div class = "all-activities">
+		<div>
+			<video width = "724" height = "960" controls>
+				<source src="animations/skateboard.mp4" type="video/mp4">
+			</video>
+		</div>
+    </div>	
+
+
+	<!-- footer section start -->
+	<footer class="footer-section text-center">
+		<div class="container">
+            <!--
+			<h2 class="section-title mb-5">Let’s work together</h2>-->
+			<a href="contact.html" class="site-btn general-neat-font about-contact-button">Contact</a>
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/pengjessica/"><span class="fa fa-linkedin"></span></a>
+                <a href="https://github.com/jessicapeng"><span class="fa fa-github"></span></a>
+				<a href="https://www.facebook.com/jessica9dance"><span class="fa fa-facebook"></span></a>
+			</div>
+			
+       
+		</div>
+	</footer>
+	<!-- footer section end -->
 
 
 	<!--====== Javascripts & Jquery ======-->
@@ -102,5 +113,6 @@
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+    <script src="js/front-page.js"></script>
 </body>
 </html>
