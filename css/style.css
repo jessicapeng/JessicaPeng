@@ -9,6 +9,25 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+/*animation*/
+
+.skateboard_animation
+{
+  margin-bottom: 10em;
+}
+
+.kamila
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; /*everything on one line, if it wraps, can do wrap*/
+}
+
+.kamila_animation
+{
+  display: inline-block;
+}
 /*activities*/
 .all-activities{
   display: flex;
@@ -987,10 +1006,12 @@ ol {
   .portfolio-item {
     height: 450px;
   }
+  
 }
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
   .body-pad {
     padding: 0 30px;
   }
