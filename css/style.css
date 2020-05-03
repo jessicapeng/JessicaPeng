@@ -24,10 +24,7 @@
   flex-wrap: wrap; /*everything on one line, if it wraps, can do wrap*/
 }
 
-.kamila_animation
-{
-  display: inline-block;
-}
+
 /*activities*/
 .all-activities{
   display: flex;
