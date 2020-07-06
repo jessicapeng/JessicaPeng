@@ -528,6 +528,19 @@ ol {
   position: relative;
 }
 
+.favicon
+{
+  height: 5em;
+  width: 5em;
+  margin-right: 0.75em;
+}
+
+.logo
+{
+  display: flex;
+  flex-direction: row;
+}
+
 /*------------------------
     RESP Header Section
 --------------------------*/
@@ -1008,7 +1021,7 @@ ol {
   .body-pad {
     padding: 0 15px;
   }
-  
+   
   }
 
 
