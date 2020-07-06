@@ -1004,7 +1004,7 @@ ol {
   .portfolio-item {
     height: 450px;
   }
-
+/*
   .body-pad {
     padding: 0 15px;
   }
@@ -1061,7 +1061,7 @@ ol {
     top: 35px;
     display: block;
   }
-  
+  */
 }
 
 
@@ -1083,7 +1083,7 @@ ol {
     padding: 0 15px;
   }
 
-  /*
+
   .main-menu {
     position: absolute;
     background: #efefef;
@@ -1128,8 +1128,6 @@ ol {
   .portfolio-filter {
     text-align: center;
   }
-}
-*/
 }
 
 /* small Mobile :320px. */
