@@ -1004,65 +1004,12 @@ ol {
   .portfolio-item {
     height: 450px;
   }
-/*
+
   .body-pad {
     padding: 0 15px;
   }
-  .main-menu {
-    position: absolute;
-    background: #efefef;
-    width: 100%;
-    z-index: 999;
-    left: 0;
-    top: 30px;
-    padding-top: 15px;
-    display: none;
+  
   }
-  .main-menu ul li a {
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-    display: block;
-  }
-  .main-menu ul li {
-    display: block;
-  }
-  .main-menu ul li:last-child a {
-    border-bottom: none;
-  }
-  .home-2 {
-    text-align: left;
-  }
-  .home-2 .main-menu {
-    top: 99px;
-  }
-  .nav-switch {
-    position: absolute;
-    right: 25px;
-    font-size: 30px;
-    color: #333;
-    top: 35px;
-    display: block;
-  }
-  .header-btn {
-    display: none;
-  }
-  .section-title {
-    font-size: 45px;
-  }
-  .portfolio-filter {
-    text-align: center;
-  }
-
-  .nav-switch {
-    position: absolute;
-    right: 25px;
-    font-size: 30px;
-    color: #333;
-    top: 35px;
-    display: block;
-  }
-  */
-}
 
 
 /* Tablet :768px. */
